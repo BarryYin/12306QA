@@ -1,15 +1,12 @@
 
 ## 介绍
 
-XTuner-Template 是一个模版仓库，提供了一个使用 [XTuner](https://github.com/InternLM/xtuner) 工具库训练大模型的“起点”。
+赶个项目，12306助手。
 
-除了支持模版仓库的基础功能，其也集成了一系列 Git / GitHub 的自动化功能：
+## 项目特点
 
-- 提交前检查（[Pre-commit](./.pre-commit-config.yaml) check）
-- GitHub 自动化工作流（[Workflows](./.github/workflows) of [GitHub Actions](https://github.com/InternLM/xtuner-template/actions)）
-- [Issue 模版](./.github/ISSUE_TEMPLATE)、[Pull request (PR) 模版](.github/pull_request_template.md)
+1、 基于Internlm-chat-7b 进行微调
+2、 Langchain 进行RAG 搜索优化
+3、 依据现实场景创建应用，进行指令微调，让模型提供服务
 
-## 快速上手
 
-> \[!TIP\]
-> 请根据您的代码修改该章节。
