@@ -10,3 +10,9 @@ local_path = '/Users/mac/Documents/GitHub/12306QA/data_base/vector_db/'
 
 # 调用下载函数
 download_folder(folder_url, local_path)
+
+'''
+scp -r root@192.168.43.137:/root/scripts /root/
+scp -r root@ssh.intern-ai.org.cn:/root/data/demo/data_base/vector_db/chroma2/ /Users/mac/Documents/GitHub/12306QA/data_base/
+
+'''
